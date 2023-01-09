@@ -1,3 +1,10 @@
+
+/* --------------------------------------------------General */
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
 /* --------------------------------------------------Navbar */
 
 .navbar {
@@ -18,11 +25,14 @@
 }
 
 .dropdown-menu {
+    
     background-color: #DBA39A;
+    --bs-dropdown-font-size: 1.25rem;
     --bs-dropdown-color: #DBA39A;
     --bs-dropdown-link-hover-bg: #FEFCF3;
     --bs-dropdown-link-hover-color: #DBA39A;
-    --bs-dropdown-font-size: 1.25rem;
+    --bs-dropdown-link-active-color: #FEFCF3;
+    --bs-dropdown-link-active-bg: #DBA39A;
     border: none;
 }
 
