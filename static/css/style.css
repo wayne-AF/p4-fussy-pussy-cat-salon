@@ -1,0 +1,45 @@
+/* --------------------------------------------------Navbar */
+
+.navbar {
+    background-color: #DBA39A;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navbar-brand {
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 900;
+    color: #FEFCF3;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #FEFCF3;
+}
+
+
+/* --------------------------------------------------Body */
+
+body {
+    background-color: #FEFCF3;
+}
+
+
+/* --------------------------------------------------Footer */
+
+footer {
+    color: #FEFCF3;
+    background-color: #DBA39A;
+    padding-bottom: 0.125em;
+    text-align: center;
+}
+
+/* social icons */
+.social {
+    margin: 20px 10px;
+    color: #FEFCF3;
+    font-size: 1.5rem;
+    
+  }
+  
+
