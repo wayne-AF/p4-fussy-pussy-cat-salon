@@ -17,6 +17,19 @@
     color: #FEFCF3;
 }
 
+.dropdown-menu {
+    background-color: #DBA39A;
+    --bs-dropdown-color: #DBA39A;
+    --bs-dropdown-link-hover-bg: #FEFCF3;
+    --bs-dropdown-link-hover-color: #DBA39A;
+    --bs-dropdown-font-size: 1.25rem;
+    border: none;
+}
+
+.dropdown-item {
+    color: #FEFCF3;
+}
+
 
 /* --------------------------------------------------Body */
 
