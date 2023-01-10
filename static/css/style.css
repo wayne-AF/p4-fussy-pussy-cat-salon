@@ -5,6 +5,10 @@
     text-decoration: underline;
 }
 
+.main-bg {
+    margin-bottom: 10em;
+}
+
 /* --------------------------------------------------Navbar */
 
 .navbar {
@@ -75,8 +79,8 @@ h3 {
 
 .container.login-form, .signup-form {
     width: max-content;    
-    margin-top: 5em;    
-    padding: 2em;
+    margin-top: 2em;    
+    padding: 1.5em;
     background-color: #DBA39A;
     color: #FEFCF3;
     font-size: 1.5rem;

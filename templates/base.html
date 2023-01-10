@@ -39,7 +39,7 @@
                   <a class="nav-link text-underline-hover" href="#">Homepage</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-underline-hover" href="#">Services</a>
+                  <a class="nav-link text-underline-hover" href="{% url 'services.html' %}">Services</a>
                 </li>
                 {% if user.is_authenticated %}
                   <li class="nav-item dropdown">
@@ -67,7 +67,7 @@
                   <a class="nav-link text-underline-hover" href="#">Appointments</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-underline-hover" href="#">Contact</a>
+                  <a class="nav-link text-underline-hover" href="{% url 'contact.html' %}">Contact</a>
                 </li>
               </ul>
             </div>
