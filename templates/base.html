@@ -44,7 +44,7 @@
                 {% if user.is_authenticated %}
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-underline-hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      {{ user.name }}
+                      (username)
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a href="#" class="dropdown-item text-underline-hover">Edit profile</a>
@@ -59,7 +59,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a href="{% url 'account_login' %}" class="dropdown-item text-underline-hover">Login</a>
-                      <a href="{% url 'account_signup' %}" class="dropdown-item text-underline-hover">Register</a>
+                      <a href="{% url 'account_signup' %}" class="dropdown-item text-underline-hover">Sign up</a>
                     </div>    
                   </li>
                 {% endif %}

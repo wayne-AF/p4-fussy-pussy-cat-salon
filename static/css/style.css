@@ -63,6 +63,39 @@ footer {
     color: #FEFCF3;
     font-size: 1.5rem;
     
-  }
-  
+}
+
+h3 {
+    font-family: 'Elsie Swash Caps', cursive;
+    font-weight: 400;
+    color: #FEFCF3;
+    font-size: 4rem;
+
+}
+
+.container.login-form, .signup-form {
+    width: max-content;    
+    margin-top: 5em;    
+    padding: 2em;
+    background-color: #DBA39A;
+    color: #FEFCF3;
+    font-size: 1.5rem;
+    border-radius: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.btn, p > a {
+    color: #FEFCF3;
+}
+
+.btn {
+    border: solid 1px #FEFCF3;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FEFCF3;
+    color: #DBA39A;
+}
 
