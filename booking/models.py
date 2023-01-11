@@ -4,9 +4,9 @@ from django import forms
 
 class ContactForm(forms.Form):
     yourname = forms.CharField(max_length=100, label='Your name')
+    # catname = forms.CharField(max_length=50, label='Your cat\'s name')
     email = forms.EmailField(required=False, label='Your email address')
-    phone = forms.IntegerField(label='Your contact number')
-    catname = forms.CharField(max_length=50, label='Your cat\'s name')
+    # phone = forms.CharField(label='Your contact number')
     message = forms.CharField(widget=forms.Textarea, label='Tell us a little bit about your cat, which service you are interested in, and which dates, if you know.')
 
 
